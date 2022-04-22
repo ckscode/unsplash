@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.e7f635d7.css","mappings":"AACA,WACI,0CAEJ,CACA,KAGI,eAAe,CACf,eAAgB,CAFhB,cAGJ","sources":["style.css"],"sourcesContent":["\r\n#inp:focus{\r\n    box-shadow:  0 4px 7px 0 rgba(25, 25, 26, 0.205);\r\n\r\n}\r\n.btn{\r\n    \r\n    padding:0.5% 2%;\r\n    font-size:large;\r\n    font-weight: 600;\r\n}\r\n"],"names":[],"sourceRoot":""}
