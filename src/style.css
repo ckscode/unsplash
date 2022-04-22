@@ -1,10 +1,70 @@
-#inp:focus{
-    box-shadow:  0 4px 7px 0 rgba(25, 25, 26, 0.205);
+
+.app{
+ background:url("appbackground.jpg") no-repeat center;
+ background-size:cover;
+ height:100vh;
+ width:100%;
+ top:0;
+ bottom:0;
+position:relative;
 
 }
-.btn{
-    
-    padding:0.5% 2%;
-    font-size:large;
+.top{
+    font-family: Montserrat;
+}
+.normal{
+    font-weight: 300;
+}
+.semibold{
+    font-weight: 400;
+}
+.slightbold{
     font-weight: 600;
+}
+.bold{
+    font-weight: 700;
+}
+.bottom{
+    font-family: 'Montserrat', sans-serif;
+}
+.search input{
+    background-color:rgba(175, 174, 177, 0.534);
+    border-radius:20px ;
+    border:1px solid rgb(164, 186, 250);
+    margin-top:1em;
+    color:rgba(240, 248, 255, 0.973);
+}
+
+.search input::placeholder{
+    color:rgba(240, 248, 255, 0.74);
+}
+.bottom{
+    background-color:rgba(175, 174, 177, 0.534);
+    margin-top: 25vh;
+    margin-bottom:30vh;
+    width:100%;
+   
+}
+.description{
+    position:relative;
+   text-align:center;
+}
+
+.temp h1{
+    font-size:90px;
+}
+.bottom h3,.bottom p{
+    margin:0 0;
+
+}
+
+@media only screen and (max-height:650px){
+    .bottom{
+        margin-top:15vh;
+    }
+}
+@media only screen and (max-height:600px){
+    .bottom{
+        margin-top:10vh;
+    }
 }
